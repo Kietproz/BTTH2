@@ -1,4 +1,4 @@
-#include"PhanSo.h"
+#include<PhanSo.h>
 #include<iostream>
 using namespace std;
 int main(){
@@ -13,5 +13,15 @@ int main(){
     cout<<"a - b = "; a.Hieu(b).Xuat(); cout<<'\n';
     cout<<"a * b = "; a.Tich(b).Xuat(); cout<<'\n';
     cout<<"a / b = "; a.Thuong(b); cout<<'\n';
+        // So sánh
+    int cmp = a.SoSanh(b);
+    if (cmp == 1)
+        cout << "\nA > B";
+    else if (cmp == 0)
+        cout << "\nA = B";
+    else
+        cout << "\nA < B";
+
     return 0;
+
 }

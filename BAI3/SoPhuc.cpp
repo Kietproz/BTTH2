@@ -2,8 +2,8 @@
 #include<iostream>
 using namespace std;
 void SoPhuc::Nhap(){
-    cout<<"Nhap phan ao: "; cin>>iThuc;
-    cout<<"Nhap phan thuc: ";cin>>iAo;
+    cout<<"Nhap phan thuc: "; cin>>iThuc;
+    cout<<"Nhap phan ao: ";cin>>iAo;
 }
 void SoPhuc::Xuat(){
     if (iAo >= 0)
